@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@drawable/orangegrad" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/eight"
+            android:background="#ffffff"
+            android:gravity="center"
+
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textSize="@dimen/twozero" />
+
+        <EditText
+            android:id="@+id/et_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/eight"
+            android:background="@drawable/square_back_customwhite"
+            android:gravity="center_vertical"
+            android:hint="User Name. : "
+            android:paddingLeft="@dimen/eight"
+            android:textSize="@dimen/twozero" />
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/eight"
+            android:background="@drawable/square_back_customwhite"
+            android:gravity="center_vertical"
+            android:hint="Password : "
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/eight"
+            android:textSize="@dimen/twozero" />
+
+
+        <Button
+            android:id="@+id/bt_Login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/eight"
+            android:background="#F6813E"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/onefour" />
+
+        <ImageView
+            android:layout_width="@dimen/onefivezero"
+            android:layout_height="@dimen/onefivezero"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/five"
+            android:paddingTop="@dimen/onezero"
+
+            android:src="@drawable/pmlogo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/threezero"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fourzero"
+                android:layout_height="@dimen/fourzero"
+                android:src="@drawable/flower" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twozero"
+                android:text="Pankaj Mehta"
+                android:textColor="#F6813E"
+                android:textSize="@dimen/twofive" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@drawable/orangegrad" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/twozerozero"
+                android:layout_height="@dimen/twozerozero"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/eight"
+                android:paddingTop="@dimen/onezero"
+                android:src="@drawable/pmlogo" />
+
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fivezero"
+                android:layout_marginBottom="@dimen/eight"
+                android:layout_marginLeft="@dimen/onezero"
+                android:layout_marginRight="@dimen/onezero"
+                android:background="@drawable/square_back_customwhite"
+                android:hint="User Name. : "
+                android:inputType="number"
+                android:paddingLeft="@dimen/eight"
+                android:textSize="@dimen/twozero" />
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fivezero"
+                android:layout_marginBottom="@dimen/eight"
+                android:layout_marginLeft="@dimen/onezero"
+                android:layout_marginRight="@dimen/onezero"
+                android:background="@drawable/square_back_customwhite"
+                android:hint="Password : "
+                android:inputType="number"
+                android:paddingLeft="@dimen/eight"
+                android:textSize="@dimen/twozero" />
+
+            <Button
+                android:id="@+id/bt_Login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fivezero"
+                android:layout_marginBottom="@dimen/eight"
+                android:layout_marginLeft="@dimen/onezero"
+                android:layout_marginRight="@dimen/onezero"
+                android:layout_marginTop="@dimen/onezero"
+                android:background="@drawable/back_bottom"
+                android:text="Login"
+                android:textSize="@dimen/twozero" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    -->

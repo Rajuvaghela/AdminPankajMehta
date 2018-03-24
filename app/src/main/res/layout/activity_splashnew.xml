@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/pmbackgroundlogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sixzero"
+        android:gravity="center"
+        android:text="વાગડસેતુ"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sevenzero"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/onefivezero"
+        android:gravity="center"
+        android:text="વાગડ સૌથી આગળ"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/threezero" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">વાગડસેતુ</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="password_text">For login, please Enter your Password</string>
+    <string name="registration_text">Welcome to વાગડસેતુ online Application! \n For Registration purpose, please enter your mobile number</string>
+    <string name="facebook_news1">રાપર તાલુકાના વેકરા ગામે લોક્સંપર્કનો કાર્યક્રમ</string>
+    <string name="facebook_news3">શ્રી રવિભાણ સંપ્રદાય દરિયાસ્થાન મંદિર ટ્રસ્ટ - રાપર આયોજીત નુતન સંકુલ ઉદ્ ઘાટન સમારોહ તથા શ્રી રામચરીત માનસ નવાન્હ ગાથા તથા ગુરુપુરણીમા મહોત્સવ માં</string>
+    <string name="facebook_news2">જાટાવાળા મુકામે પ્રાથમિક શાળાના ઓરડાનું લોકાર્પણ તેમજ ઉજ્જવલા યોજના હેઠળ લાભાર્થીઓને ગેસ વિતરણના કાર્યક્રમમાં</string>
+    <string name="tv_address">150 feet ring road ,\nMavdi plot,Rajkot , 360004, Gujrat</string>
+    <string name="news">PATNA: JD(U)-RJD ties have entered a tense terrain amid growing indications that Bihar chief minister Nitish Kumar is under pressure to avoid the embarrassment of </string>
+    <string name="str_pankajmehta">પંકજ અનોપચંદ મહેતા મહેતા નો જન્મ વાગડ ના બેલા ગામ માં થયો હતો દરેક ચિઝ નો અભાવ એ વાગડ નો સ્વાભાવ હતો</string>
+</resources>
